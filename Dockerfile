@@ -10,8 +10,7 @@ RUN rm -rf /var/www/html/index.html
 
 WORKDIR /var/www/html
 
-COPY ./oxer-html/ .
-
+COPY oxer-html /var/www/html
 
 EXPOSE 80
 
