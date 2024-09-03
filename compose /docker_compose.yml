@@ -1,6 +1,6 @@
 services:          #default synxtax
   frontendnginxfirst:        #naming convention for container
-    build: /opt/docker-compose/oxer-html/  #location of the docker file
+    build: /opt/docker-compose/ #location of the docker file
     ports:     #port mapping my container to host port 
       - '80:80'  
     container_name: dockercompose  #providing name to container
